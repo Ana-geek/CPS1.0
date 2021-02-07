@@ -1,0 +1,160 @@
+body {
+    background-color: #eceded;
+    }
+
+.header{
+    background-color: #eceded;
+    box-shadow: 10px 10px 17px #707b7d55;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0px 0px 40px 0px;
+    }
+
+.logo{
+    float: left;
+    text-align: center;
+    margin: 10px;
+    }
+
+
+.header-el{
+    float: right;
+    text-align: center;
+    color: #707b7d;
+    text-decoration: none;
+    margin: 25px 25px;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    }
+
+
+.butt{
+    float: right;
+    text-align: center;
+    color: #eceded;
+    background: #707b7d;
+    text-decoration: none;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px #707b7d55;
+    margin: 20px 15px;
+    padding: 4px 20px;
+    border-radius: 20px;
+    }
+
+
+.fotter{
+    background-color: #eceded;
+    left:0px;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    height: 30px;
+    position: fixed;
+    bottom:0px;
+
+}
+
+.fotter-el{
+    text-align: center;
+    color: #707b7d;
+    text-decoration: none;
+    margin: 15px 15px;
+    font-family: 'Economica', sans-serif;
+    font-size: 15px;
+    }
+
+.h1{
+    color: #707b7d;
+    font-family: 'Economica', sans-serif;
+    font-size: 60px;
+    margin: 0px 80px;
+    text-decoration: none;
+
+}
+
+.text-big{
+    color: #707b7d;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    }
+
+.text-small{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    }
+
+
+.form-group{
+    text-align: left;
+    background-color: #eceded;
+    box-shadow: 10px 10px 17px #707b7d55;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.button{
+    text-align: center;
+    color: #eceded;
+    background: #707b7d;
+    text-decoration: none;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px #707b7d55;
+    margin: 10px 10px;
+    padding: 4px 20px;
+    border-radius: 20px;
+}
+
+.label{
+    color: #707b7d;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    margin: 10px 15px;
+}
+
+.err{
+    color: red;
+    margin-left: 7px;
+}
+
+input{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 2px ;
+    }
+
+.qa{
+    margin: 60px 80px;
+
+    }
+
+.answers{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px 10px;
+
+    }
+
+div ul{
+    list-style-image: url("media/cat.png");
+    color: #707b7d;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px; margin: 20px 80px
+}
+
+div li{
+    margin: 10px 20px 0px 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+

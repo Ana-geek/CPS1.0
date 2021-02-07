@@ -1,0 +1,39 @@
+body {
+    background-color: #eceded;
+    }
+
+div{
+    text-align: center;
+    margin: 40px
+    }
+
+.text-small{
+    text-align: center;
+    color: #707b7d;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    margin: 20px 80px;
+    }
+
+.butt{
+    float: center;
+    text-align: center;
+    color: #eceded;
+    background: #707b7d;
+    text-decoration: none;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px #707b7d55;
+    margin: 40px 15px;
+    padding: 4px 20px;
+    border-radius: 20px;
+    }
+
+.h1{
+    color: #707b7d;
+    font-family: 'Economica', sans-serif;
+    font-size: 60px;
+    margin: 30px 80px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cabinet</title>
+
+    <link rel="stylesheet" href="{% static 'css/cabinet.css' %}">
+    <link rel="icon" href="{% static 'media/icon.png' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Inter:wght@100&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Inter:wght@100&family=Montserrat:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<nav class="header">
+        <img class="logo" src="/static/media/icon.png" width="60" height="60">
+        <a class="butt" href="/logout">Logout</a>
+        <a class="header-el" href="/qa">Q/A</a>
+        <a class="header-el" href="/ops">Blog</a>
+        <a class="header-el" href="/ops">Courses</a>
+        <a class="header-el" href="/">Home</a>
+</nav>
+
+
+
+
+<div class="avatar-line">
+    <a class="avatar-el" >Creative people space 1.0</a>
+    <img src="/static/media/avatar.png" alt="icon" width="100" style="border: white solid 6px; border-radius: 100%" >
+    <a class="avatar-el" href="/ops">Courses</a>
+    <a class="avatar-el" href="/cabinethomework">Homework</a>
+    <a class="avatar-el" href="/cabinet">Lectures</a>
+</div>
+
+
+<div>
+    <iframe width="560" height="315" frameborder="0" src="https://www.youtube.com/embed/esksoDT34G4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+
+    <div style="margin: 20px 80px 20px 20px;">
+        <p class="text-big">Lection 1. English grammar</p>
+        <p class="text-big">About:</p>
+        <p class="text-small">Curabitur eu risus sem. Nunc id ex nisl. Donec at interdum dolor. Aenean ac orci egestas, blandit nunc a, facilisis est. Integer et facilisis neque. Nulla tempor velit in faucibus finibus. Phasellus nisi quam, dignissim at neque eu, mollis imperdiet nisi. Fusce tempor purus at magna varius mollis.
+            <br>
+            <br>
+        Quisque felis arcu, vehicula non hendrerit euismod, viverra varius massa. Aenean porttitor et magna vitae convallis. Ut arcu dui, ornare tempus lectus vel, venenatis venenatis dolor. Pellentesque a efficitur augue. Curabitur id diam ac risus placerat rutrum. Pellentesque quis sollicitudin ipsum. Aenean rutrum massa non eros imperdiet egestas. Integer auctor aliquet mi, eget ornare lorem dignissim nec. Praesent at lacinia mauris. Morbi suscipit rutrum eros, vel pulvinar odio cursus ac. Proin vel orci eget mauris iaculis tempor. Integer elementum lorem quis ipsum rutrum bibendum at ut massa. Donec lacinia neque diam, id sodales sem ultricies eget. Proin vel orci eget mauris iaculis tempor. Integer elementum lorem quis ipsum rutrum bibendum at ut massa. Donec lacinia neque diam.</p>
+    </div>
+
+</div>
+
+
+
+<div style="layout: relative">
+    <div class="column1of2">
+        <p class="text-big" >You can put your notes here:</p>
+        <textarea placeholder="Place for notes..." name="notes" cols="96" rows="30" style="margin: 0px 0px 80px 0px;"></textarea>
+<!--        <input id="submit" type="submit" value="Save" class="button">-->
+
+    </div>
+
+
+    <div class="column2of2">
+        <p class="text-big">Chat:</p>
+
+        <div class="container">
+          <img src="/static/media/avatar.png" alt="Avatar" style="width:100%;">
+          <p>Praesent at lacinia mauris.</p>
+          <span class="time-right">11:00</span>
+        </div>
+
+        <div class="container darker">
+          <img src="/static/media/avatar2.png" alt="Avatar" class="right" style="width:100%;">
+          <p>Pellentesque a efficitur augue. Curabitur id diam ac risus placerat rutrum.</p>
+          <span class="time-left">11:01</span>
+        </div>
+
+        <div class="container">
+          <img src="/static/media/avatar.png" alt="Avatar" style="width:100%;">
+          <p>Curabitur eu risus sem.</p>
+          <span class="time-right">11:02</span>
+        </div>
+
+        <div class="container darker">
+          <img src="/static/media/avatar2.png" alt="Avatar" class="right" style="width:100%;">
+          <p>Proin vel orci eget mauris iaculis tempor.</p>
+          <span class="time-left">11:05</span>
+        </div>
+
+        <input type="text" placeholder="Type to send the message..." size="70" maxlength="2555">
+        <input id="send" type="submit" value="Send" class="butt">
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

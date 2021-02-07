@@ -1,0 +1,49 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block title %}
+    Register
+{% endblock title %}
+
+{% block link %}
+    <link rel="stylesheet" href="{% static 'css/forms.css' %}">
+{% endblock link %}
+
+
+
+{% block content %}
+
+<form class="form-group" action="/register" method="post" onsubmit="return false">
+    {% csrf_token %}
+    <div class="error">
+        {{ report }}
+    </div>
+    <div class="label">
+        <label for="login_field">Login</label>
+        <input id="login_field" name="login_field" type="text" placeholder="Enter login" >
+    </div>
+
+    <div class="label">
+        <label for="email_field">Email</label>
+        <input id="email_field" name="email_field" type="email" placeholder="Enter e-mail">
+    </div>
+
+    <div class="label">
+        <label for="password_field">Password</label>
+        <input id="password_field" name="password_field" type="password" placeholder="Enter the password">
+    </div>
+
+    <div class="label">
+        <label for="password_confirm_field">Password Confirmation</label>
+        <input id="password_confirm_field" name="password_confirm_field" type="password" placeholder="Confirm password">
+    </div>
+
+
+    <input id="submit" type="submit" value="Send" class="button">
+</form>
+
+<script src="{% static 'js/reg.js' %}">
+
+</script>
+
+{% endblock content %}
